@@ -1,0 +1,33 @@
+{
+    "manifestVersion": 1,
+    "id": "no-at-code-block",
+    "name": "No @code block",
+    "version": "0.0.6",
+    "publisher": "MohammedBaksh",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "Tool for checking for @code blocks in razor files.",
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "files": [
+        {
+            "path": "buildandreleasetask"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "no-at-code-block",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "buildandreleasetask"
+            }
+        }
+    ]
+}

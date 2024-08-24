@@ -1,0 +1,31 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
+    "id": "90c8a22e-d9da-4762-8c63-2c965a66af4e",
+    "name": "NoAtCodeBlock",
+    "friendlyName": "No @code block",
+    "description": "Tool for checking for @code blocks in razor files.",
+    "helpMarkDown": "",
+    "category": "Utility",
+    "author": "Mohammed Baksh",
+    "version": {
+        "Major": 0,
+        "Minor": 2,
+        "Patch": 0
+    },
+    "instanceNameFormat": "Check for @code in $(blazorprojectpath)",
+    "inputs": [
+        {
+            "name": "blazorprojectpath",
+            "type": "filePath",
+            "label": "Path to Blazor project",
+            "defaultValue": "",
+            "required": true,
+            "helpMarkDown": "Path to Blazor project"
+        }
+    ],
+    "execution": {
+        "Node20_1": {
+            "target": "index.js"
+        }
+    }
+}

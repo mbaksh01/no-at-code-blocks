@@ -1,0 +1,7 @@
+{
+	"name": "No @code block Azure DevOps Extension",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"remoteUser": "root"
+}
