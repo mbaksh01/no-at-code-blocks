@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "no-at-code-block",
     "name": "No @code block",
-    "version": "0.0.6",
+    "version": "0.0.9",
     "publisher": "MohammedBaksh",
     "targets": [
         {
@@ -13,6 +13,9 @@
     "categories": [
         "Azure Pipelines"
     ],
+    "icons": {
+        "default": "images/nocodeblockslogo.png"
+    },
     "files": [
         {
             "path": "buildandreleasetask"
