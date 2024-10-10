@@ -17,4 +17,4 @@ Checks all .razor files in a given folder for the presents of the `@code` block.
 4. Click + and add the `bqc/no-code-block-policy`.
 5. Save the changes.
 
-![No Code Block custom Azure DevOps Status](https://github.com/mbaksh01/no-at-code-blocks/blob/main/no-code-block-extension/images/custom-status-no-code-block.png)
+![No Code Block custom Azure DevOps Status](https://github.com/mbaksh01/no-at-code-blocks/blob/main/no-code-block-extension/images/custom-status-no-code-block.png?raw=true)
